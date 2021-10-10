@@ -9,6 +9,7 @@ import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int PICK_VIDEO= 1;
     VideoView videoview;
     Button button;
+    ImageView proImg;
     ProgressBar progressBar;
     EditText editText;
     private Uri videoUri;
@@ -54,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.button_upload_main);
         progressBar = findViewById(R.id.progressBar_main);
         editText = findViewById(R.id.et_video_name);
+        proImg = findViewById(R.id.PrImg);
         mediaController = new MediaController(this);
         videoview.setMediaController(mediaController);
         videoview.start();
@@ -62,6 +65,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 UploadVideo();
+            }
+        });
+
+        proImg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, EditProfile.class));
             }
         });
 
