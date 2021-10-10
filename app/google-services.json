@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "611998451963",
+    "project_id": "firebse-4bad5",
+    "storage_bucket": "firebse-4bad5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611998451963:android:973bdad6d416b9409bc85e",
+        "android_client_info": {
+          "package_name": "com.example.videostreamingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611998451963-kbnsfceuvq79goprdiq91s8p7v1bhu9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.videostreamingapp",
+            "certificate_hash": "f8af4fa8330ecebb0e60f20d112a9471904f8756"
+          }
+        },
+        {
+          "client_id": "611998451963-p4egli2d5hq1t85akivf82v0vjsm1tu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTeNOsHPLkFAwNgd-MrJnBuKnBD6os3h0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611998451963-p4egli2d5hq1t85akivf82v0vjsm1tu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
