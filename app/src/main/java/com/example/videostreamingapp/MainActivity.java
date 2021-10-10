@@ -1,14 +1,9 @@
 package com.example.videostreamingapp;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.storage.StorageManager;
 import android.text.TextUtils;
 import android.view.View;
 import android.webkit.MimeTypeMap;
@@ -16,9 +11,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.MediaController;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -97,6 +95,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ShowVideo(View view) {
+        Intent intent = new Intent(MainActivity.this,showvideo.class);
+        startActivity(intent);
     }
 
     private void UploadVideo(){
