@@ -6,11 +6,18 @@
     android:layout_height="match_parent"
     android:layout_margin="10dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/bg2">
+
+    <ImageView
+        android:id="@+id/PrImg"
+        android:layout_width="33dp"
+        android:layout_height="35dp"
+        android:src="@drawable/proimg"/>
 
     <VideoView
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="240dp"
         android:id="@+id/videoview_main"
         android:backgroundTint="@android:color/black" />
 
