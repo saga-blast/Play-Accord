@@ -20,4 +20,3 @@ It is an Video Streaming app, in which one could upload desired video to the Fir
 - Video quality change
 - Downloading Video from the app 
 - Creating playlist 
-- 
