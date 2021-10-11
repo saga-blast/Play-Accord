@@ -1,12 +1,12 @@
 
-# PLAYACCORD
+# PLAYACCORD 
 
-It is an Video Streaming app, in which one could upload desired video to the Firebase database and watch it anytime online.
+It is a Video Streaming app, in which one could upload desired video to the Firebase database and watch it anytime online.
 
-Project - [Video link] (https://youtu.be/BD-L7YPOpzs)
-Project - [link] (https://github.com/saga-blast/VideoStreamingApp)
+Project - <a href="https://youtu.be/BD-L7YPOpzs">Video link</a>    </br>
+Project - <a href="https://github.com/saga-blast/VideoStreamingApp">Link</a>
 
-## Features
+## Features 
 
 - User login page
 - User Authentication 
@@ -16,14 +16,14 @@ Project - [link] (https://github.com/saga-blast/VideoStreamingApp)
 - Search by name 
 - User details
 
-## Plans
+## Plans 
 
 - Video quality change
 - Downloading Video from the app 
 - Creating playlist 
 - Playback speed control
 
-Developed by - 
-Aditya Jena 
-<a href="https://github.com/saga-blast">Debi Prasad Bhanja</a>
+## Developed by 
+Aditya Jena  </br>
+<a href="https://github.com/saga-blast">Debi Prasad Bhanja</a>  </br>
 <a href="https://github.com/sambit221">Sambit Kumar Tripathy</a>
