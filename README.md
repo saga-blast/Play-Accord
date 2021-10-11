@@ -3,7 +3,7 @@
 
 It is a Video Streaming app, in which one could upload desired video to the Firebase database and watch it anytime online.
 
-Project - <a href="https://youtu.be/BD-L7YPOpzs">Video link</a>    </br>
+Project Video link - <a href="https://youtu.be/BD-L7YPOpzs"> https://youtu.be/BD-L7YPOpzs</a>    </br>
 Project - <a href="https://github.com/saga-blast/VideoStreamingApp">Link</a>
 
 ## Features 
@@ -24,6 +24,6 @@ Project - <a href="https://github.com/saga-blast/VideoStreamingApp">Link</a>
 - Playback speed control
 
 ## Developed by 
-Aditya Jena  </br>
+<a href="https://github.com/anostargaryen">Aditya Jena</a> </br>  
 <a href="https://github.com/saga-blast">Debi Prasad Bhanja</a>  </br>
 <a href="https://github.com/sambit221">Sambit Kumar Tripathy</a>
