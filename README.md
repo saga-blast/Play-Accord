@@ -8,14 +8,16 @@ It is an Video Streaming app, in which one could upload desired video to the Fir
 ## Features
 
 - User login page
-- User Authentication
+- User Authentication 
+- Forgot password option enabled
 - Pause/Resume option enabled
 - Video fast forward and backward Features
 - Search by name 
+- User details
 
 ## Plans
 
 - Video quality change
 - Downloading Video from the app 
 - Creating playlist 
-  
+- 
